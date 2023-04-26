@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px;
+    align-items: center;
+    height: 100vh;
+}
+
+.projectsContainer > h1{
+    padding-bottom: 15px;
+}
+
+.projectsContainer > p{
+    padding-bottom: 20px;
+}
+
+.projectContainer_projects{
+    display: flex;
+    width: 60vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}

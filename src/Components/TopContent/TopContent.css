@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.topContent{
+    color: White;
+    position: relative;
+}
+
+.topContent_container{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+.topContent_container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.topContent_container > a > button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topContent_container > h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.topContent_downloadBtn{
+    color:white;
+    background-color: black;
+    border:1px solid white !important;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.topContent_downloadBtn:hover{
+    color: black;
+    background-color: white;
+    font-weight:bolder ;
+}
+
+.topContent_workBtn{
+    color:white;
+    background-color: black !important;
+    border:1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topContent_workBtn:hover{
+    color: black;
+    background-color: white !important;
+    font-weight: bolder;
+}
