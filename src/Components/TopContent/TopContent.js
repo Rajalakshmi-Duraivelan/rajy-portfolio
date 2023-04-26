@@ -8,7 +8,7 @@ const TopContent = () => {
       <div className='topContent_container'>
         <h1>Rajalakshmi Duraivelan</h1>
         <p>Full Stack Developer</p>
-        <a href='www.google.com'>
+        <a href='https://docs.google.com/document/d/1slUXy0GwneWwsTLOAtNpwh6ww74uOFB8/edit?usp=share_link&ouid=110220596006604540874&rtpof=true&sd=true'>
           <button className='topContent_downloadBtn'>Download CV</button>
         </a>
         <Link to="projects" smooth={true} duration={500}>
